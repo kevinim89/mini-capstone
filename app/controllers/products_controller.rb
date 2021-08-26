@@ -10,13 +10,8 @@ class ProductsController < ApplicationController
     render json: product.as_json
   end
 
-  def fifth_product
-    product = Product.fifth
-    render json: product.as_json
-  end
-
-  def sixth_product
-    product = Product.find(6)
+  def any_product
+    product = Product.find(params[:id])
     render json: product.as_json
   end
 
