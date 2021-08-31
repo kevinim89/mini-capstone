@@ -16,11 +16,11 @@ Content-Type: application/json
 GET http://localhost:3000/products/2
 
 ### PRODUCTS UPDATE
-PATCH http://localhost:3000/products/7
+PATCH http://localhost:3000/products/1
 Content-Type: application/json
 
 {
-  "price": 150
+  "inventory": 15
 }
 
 ### PRODUCTS DESTROY
