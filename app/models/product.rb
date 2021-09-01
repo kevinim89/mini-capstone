@@ -1,5 +1,13 @@
 class Product < ApplicationRecord
 
+  # association method
+  belongs_to :supplier #returns a hash of supplier data
+
+  # def supplier
+  #   Supplier.find(supplier_id)
+  # end
+
+  # model methods
   def is_discounted?
     price < 10
   end
