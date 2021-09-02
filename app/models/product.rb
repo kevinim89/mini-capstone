@@ -6,6 +6,7 @@ class Product < ApplicationRecord
   # def supplier
   #   Supplier.find(supplier_id)
   # end
+  has_many :images
 
   # model methods
   def is_discounted?
