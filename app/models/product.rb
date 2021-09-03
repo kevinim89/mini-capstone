@@ -1,4 +1,5 @@
 class Product < ApplicationRecord
+  validates :name, presence: true
 
   # association method
   belongs_to :supplier #returns a hash of supplier data
