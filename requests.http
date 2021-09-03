@@ -6,10 +6,10 @@ POST http://localhost:3000/products
 Content-Type: application/json
 
 {
-  "name": "table",
-  "price": 320,
-  "image_url": "table.net",
-  "description": "you sit next to the table",
+  "name": "carzzz",
+  "price": 3200,
+  "image_url": "car.com",
+  "description": "you sit in the car",
   "supplier_id": 1
 }
 
