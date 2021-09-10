@@ -43,7 +43,26 @@ POST http://localhost:3000/sessions
 Content-Type: application/json
 
 {
-  "email": "ace@gmail.com",
+  "email": "cheddar@gmail.com",
   "password": "password"
 }
 
+### Orders INDEX
+GET http://localhost:3000/orders
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2MzEzOTMwNDN9.8ITta5l6RpgXyUACq_dWSZfUykxFM6UibJmHdCDpSow
+
+### Orders create
+POST http://localhost:3000/orders
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2MzEzOTE3MTB9.5X87c-C6NMUz8HZt91eu_EWCFJogPQqSGVZIlErqBVg
+
+{
+  "product_id": 6,
+  "quantity": 1
+}
+
+### Orders SHOW
+GET http://localhost:3000/orders/2
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2MzEzOTE3MTB9.5X87c-C6NMUz8HZt91eu_EWCFJogPQqSGVZIlErqBVg
