@@ -25,3 +25,24 @@ Content-Type: application/json
 
 ### PRODUCTS DESTROY
 DELETE http://localhost:3000/products/8
+
+### Users create (signup)
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "name": "Cheddar",
+  "email": "cheddar@gmail.com",
+  "password": "password",
+  "password_confirmation": "password"
+}
+
+### Sessions create (login)
+POST http://localhost:3000/sessions
+Content-Type: application/json
+
+{
+  "email": "cheddar@gmail.com",
+  "password": "password"
+}
+
