@@ -1,16 +1,16 @@
-# Supplier.create!([
-#   {name: "Thinkgeek", email: "thinkgeek@gmail.com", phone_number: "333-4444"},
-#   {name: "Dumbledore's Wizardry Supplies", email: "dws@gmail.com", phone_number: "555-7777"},
-# ])
+Supplier.create!([
+  {name: "Thinkgeek", email: "thinkgeek@gmail.com", phone_number: "333-4444"},
+  {name: "Dumbledore's Wizardry Supplies", email: "dws@gmail.com", phone_number: "555-7777"},
+])
 
-# Product.create!([
-#   {name: "Hitchhiker's Guide to the Galaxy", price: "42.0", description: "In many of the more relaxed civilizations on the Outer Eastern Rim of the Galaxy, the Hitch-Hiker's Guide has already supplanted the great Encyclopaedia Galactica as the standard repository of all knowledge and wisdom, for though it has many omissions and contains much that is apocryphal, or at least wildly inaccurate, it scores over the older, more pedestrian work in two important respects. First, it is slightly cheaper; and secondly it has the words DON'T PANIC inscribed in large friendly letters on its cover.", inventory: 5, supplier_id: 1},
-#   {name: "Lightsaber", price: "270.0", description: "Part laser, part samurai sword, all awesome. The lightsaber is an elegant weapon for a more civilized age, not nearly as clumsy as a blaster", inventory: 7, supplier_id: 2},
-#   {name: "Space Cowboy Laser Gun", price: "170.0", description: "This weapon has no other description than, Shiney!", inventory: 50, supplier_id: 2},
-#   {name: "DnD Dice set", price: "60.0" description: "Take down mighty dragons with this timeless set of 20 sided wonders", inventory: 43, supplier_id: 1},
-#   {name: "Yoda sleeping bag", price: "150.0", description: "For real", inventory: 3, supplier_id: 2},
-#   {name: "WNYX Mug", price: "2.0", description: "Get your morning news once you wake up with a cup of joe from... well Joe. He made it with his homemade duct tape", inventory: 15, supplier_id: 1}
-# ])
+Product.create!([
+  {name: "Hitchhiker's Guide to the Galaxy", price: "42.0", description: "In many of the more relaxed civilizations on the Outer Eastern Rim of the Galaxy, the Hitch-Hiker's Guide has already supplanted the great Encyclopaedia Galactica as the standard repository of all knowledge and wisdom, for though it has many omissions and contains much that is apocryphal, or at least wildly inaccurate, it scores over the older, more pedestrian work in two important respects. First, it is slightly cheaper; and secondly it has the words DON'T PANIC inscribed in large friendly letters on its cover.", inventory: 5, supplier_id: 1},
+  {name: "Lightsaber", price: "270.0", description: "Part laser, part samurai sword, all awesome. The lightsaber is an elegant weapon for a more civilized age, not nearly as clumsy as a blaster", inventory: 7, supplier_id: 2},
+  {name: "Space Cowboy Laser Gun", price: "170.0", description: "This weapon has no other description than, Shiney!", inventory: 50, supplier_id: 2},
+  {name: "DnD Dice set", price: "60.0", description: "Take down mighty dragons with this timeless set of 20 sided wonders", inventory: 43, supplier_id: 1},
+  {name: "Yoda sleeping bag", price: "150.0", description: "For real", inventory: 3, supplier_id: 2},
+  {name: "WNYX Mug", price: "2.0", description: "Get your morning news once you wake up with a cup of joe from... well Joe. He made it with his homemade duct tape", inventory: 15, supplier_id: 1}
+])
 
 Image.create!([
   {

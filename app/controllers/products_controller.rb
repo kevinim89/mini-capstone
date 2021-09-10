@@ -10,9 +10,13 @@ class ProductsController < ApplicationController
       price: params[:price],
       description: params[:description],
       inventory: params[:inventory],
+      supplier_id: params[:supplier_id]
     )
-    product.save
-    render json: product
+    if product.save
+      render json: product
+    else
+      render json: product.errors.full_messages, status: :unprocessable_entity
+    end
   end
 
   def show
