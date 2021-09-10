@@ -32,8 +32,8 @@ POST http://localhost:3000/users
 Content-Type: application/json
 
 {
-  "name": "Cheddar",
-  "email": "cheddar@gmail.com",
+  "name": "Ace",
+  "email": "ace@gmail.com",
   "password": "password",
   "password_confirmation": "password"
 }
@@ -43,7 +43,7 @@ POST http://localhost:3000/sessions
 Content-Type: application/json
 
 {
-  "email": "cheddar@gmail.com",
+  "email": "ace@gmail.com",
   "password": "password"
 }
 

@@ -30,8 +30,11 @@ class ProductsController < ApplicationController
     product.price = params[:price] || product.price
     product.description = params[:description] || product.description
     product.inventory = params[:inventory] || product.inventory
-    product.save
-    render json: product
+    if product.save
+      render json: product
+    else
+      render json: product.errors.full_messages, status: :unprocessable_entity
+    end
   end
 
   def destroy
